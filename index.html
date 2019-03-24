@@ -1,0 +1,626 @@
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content = "width-device-width, initial-scale = 1.0">
+		<meta http- equi="X-UA-Compatible" content="le-edge">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,900|Roboto:300,400,700,900" rel="stylesheet">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+		<title>Info Session - UpX Academy</title>
+		<style>
+			.roboto {
+				font-family: 'Roboto';
+			}
+			.speakers{
+				background-image: url("https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/sbg-1404.png");
+				min-height: 500px;
+				color: white;
+				padding:20px 100px 20px 100px;
+			}
+			.fas fa-microphone{
+				color: orange;
+			}
+			#course_highlights > div{
+				float:left;
+				margin:10px;
+			}
+			#speakers_list > div{
+				float:left;
+				margin:10px;
+			}
+			#demo {
+			  text-align: center;
+			  font-size: 60px;
+			  margin-top: 0px;
+			}
+
+			footer{
+				background-color: #2A2323;
+				color: white;
+				padding:20px 100px 20px 100px;
+			}
+			.speakers1{
+				background-image: url('https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Artboard%201(1).png');
+			}
+			.intro {
+				background-color:grey;
+				background-image: url('https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/header-bg.png');
+				min-height: calc(100vh + 150px);
+			}
+			.flex-vertical-container {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+			}
+			.flex-horizontal-container {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: row;
+			}
+			#student_speak {
+				background-color:grey;
+				background-image: url('https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/student-bg-1404.png');
+				padding: 25px 0px 0px;
+			}
+			.reason {
+				max-width:230px; 
+				height:250px;
+				border:1px solid #333; 
+				border-radius:5px; 
+				padding:20px; 
+				margin:5px 15px;
+				background-color: white;
+			}
+			.course {
+				color: white;
+				text-align: center;
+				max-width: 400px;
+				max-height: 300px;
+				width: 100%;
+				background-color: #282828;
+				padding: 15px 0px;
+				margin: 20px 4px;
+				position: relative
+			}
+			#faculty {
+				background-image: url('https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Copy%20(1)%20of%20speaker-bg.png');
+				background-position: top left;
+		        min-height: 100vh;
+		        background-size: cover;
+		        background-repeat: no-repeat;
+		        padding: 30px 0px;
+		        color: white;
+			}
+			.speaker {
+				margin: 25px 25px 50px;
+				min-width: 300px;
+			}
+			input[type=text]{
+				border:1px solid #989898;
+				border-radius:10px;
+			}
+			input[type=text]::placeholder{
+				color:#888888;
+			}
+		</style>
+	</head>
+	<body style="margin:0">
+		<section class="intro">
+			<div class="container" style="padding-top:50px">
+				<div class ="row">
+					<p id="demo" style="color:white;font-size:50px;"></p>
+						<script>
+							var countDownDate = new Date("Mar 24, 2020 15:37:25").getTime();
+							var x = setInterval(function() 
+							{
+							var now = new Date().getTime(); 
+							var distance = countDownDate - now;
+							var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+							var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+							var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+							var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+							document.getElementById("demo").innerHTML = days + "d " + hours + "h "+ minutes + "m " + seconds + "s ";
+							if (distance < 0) 
+							{
+							    clearInterval(x);
+							    document.getElementById("demo").innerHTML = "EXPIRED";
+							}
+							}, 1000);
+						</script>
+
+				</div>
+				<div class="row">
+					<div class="intro-content col-sm-8">
+						<img src='https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/hyphen.png'>
+						<div class="w3-leftbar w3-border-orange" style="color:white;margin:30px 0px;padding:5px 10px;">
+							<h1>
+							6 MONTH CERTIFICATE PROGRAM 
+<span style="font-family: times new roman"><br>IN BIG DATA &amp; DATA SCIENCE</span></h1>
+						</div>
+						<div style="color:white;margin:30px 0px;padding:10px 0px;font-size:22px;">
+							<p>Interactive session discussing course structure, curriculum and
+							</p>
+							<p>
+timings about upcoming batches. 
+</p>
+						</div>
+						<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/tm-logo.png">
+					</div>
+					<div class="form-div-holder col-sm-4 w3-border w3-border-white w3-round-large" style="">
+						<div class="row">
+							<div class="col-sm-12"style="margin:-45px -55px;float:right;"><img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/blip.png" height="100px" width="100px" align="right">
+							</div>
+						</div>
+						<div class="main-top row" style="color:white;">
+
+							<div class="main-top-left col-sm-3" style="text-align:center; padding:40px 0px 1px 70px;">
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/1404%20(2).png" width=35px>
+							</div>
+							<div class="col-sm-9"style="text-align:left;padding:10px 10px 1px 20px;">
+								<p style="font-size:15px;padding:0px 30px;">For Enquires</p>
+								<p style="font-size:30px;font-weight:lighter;">1800-123-1260</p>
+							</div>
+						</div>
+						<div class="row w3-border-top w3-round-large w3-border-white" style="color:black; border:1px; background-color: white;padding:20px">
+							<p style="font-weight: bold;text-align:center;color:#404040;">ONLINE & Free</p>
+							<div style="background-color: #ff6600;color: #ff6600;width:100%;height:1px;border:1px;"></div>
+							<p style="text-align:center;color: #ff6600;font-size:12px;">4th JUNE | 5th June | 9PM IST</p>
+							<div class="form-group" style="padding:0px 0px 35px 0px; " >
+								<input class="form-control col-sm-12"type="text" placeholder="First Name" name="first_name" required>
+							</div>
+							<div class="form-group" style="padding: 0px 0px 35px 0px;" >
+								<input class="form-control col-sm-12"type="text" placeholder="Last Name" name="last_name" required>
+							</div>
+							<div class="form-group" style="padding:0px 0px 35px 0px;" >
+								<input class="form-control col-sm-12"type="text" placeholder="Email" name="email" required>
+							</div>
+							<div class="form-group" style="padding:0px 0px 35px 0px;" >
+								<input class="form-control col-sm-12"type="text" placeholder="Phone Number" name="phone_number" required>
+							</div>
+							<button type="submit"class="btn btn-warning btn-block" style="background-color:#ff6600;border-radius:10px;font-size:20px; "> SAVE MY SPOT</button>
+						</div>
+						<div class="row">
+							<div class="col-sm-12"style="margin:-100px -67px;float:left;transform:rotate(330deg);"><img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/blip.png" height="60px" align="left">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="course_highlights"style="min-height:400px; margin:-100px 0px -50px;">
+			<h1 style="text-align:center; color:white; font-weight:300" class="roboto">COURSE HIGHLIGHTS</h1>
+			<div class="flex-horizontal-container" style="width:100%;">
+				<div id="course_highlights1" class="reason flex-vertical-container">
+					<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Asset%207.png" style="margin-bottom:20px;">
+					<p style="text-align:center;">Online, live & Interactive sessions with use cases, theory and projects</p>
+				</div>
+				<div id="course_highlights1" class="reason flex-vertical-container">
+					<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Asset%208.png" style="margin-bottom:20px;">
+					<p style="text-align:center;">Hands-on experience with real world datasets from BFSI, Retail, Healthcare, Entertainment & Sports</p>
+				</div>
+				<div id="course_highlights1" class="reason flex-vertical-container">
+					<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Asset%209.png" style="margin-bottom:20px;">
+					<p style="text-align:center;">Best in class curriculum designed by Industry experts with pre-reads, videos, assignments & installation guides</p>
+				</div>
+				<div id="course_highlights1" class="reason flex-vertical-container">
+					<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Asset%2010.png" style="margin-bottom:20px;">
+					<p style="text-align:center;">Industry recognised certification by TECH MAHINDRA</p>
+				</div>			
+			</div>			
+		</section>
+		<section class="speakers" style="align-items: center; min-height:560px;">
+			<div class="speakers_title" style="color:orange; font-size: 20px;">
+				<h1 style="text-align:center;" class="roboto"><img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/1404%20(10).png">
+				SPEAKERS</h1>
+			</div>
+			<div id="speakers_list"style="padding:70px 120px;" class="flex-horizontal-container">
+				<div style="width:250px;height:200px;border:1px;padding:10px;" class="flex-vertical-container">
+					<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Artboard%201(1).png" align="middle">
+					<div style="text-align:center;">
+						<p class="roboto">MANVENDER SINGH</p>
+						<p>Founder & CEO UpX Academy</p>
+						<p>MBA, ISB</p>
+					</div>
+				</div>
+				<div style="width:250px;height:200px;border:1px;padding:10px;float:center;" class="flex-vertical-container">
+					<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Artboard%202.png">
+					<div style="text-align:center;">
+						<p class="roboto">IoT & Smart City consultant with</p>
+						<p>AP Government</p>
+						<p>MBA, ISB</p>
+					</div>
+				</div>
+				<div style="width:250px;height:200px;border:1px;padding:10px;" class="flex-vertical-container">
+					<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Artboard%203(1).png">
+					<div style="text-align:center;">
+						<p class="roboto">ARUN K</p>
+						<p>Healthcare Analytics Expert</p>
+						<p>University of Cologne</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="faculty">
+			<div style="text-align:center; font-size:30px; margin-bottom:50px">
+				<h1 class="roboto">
+					<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/globe.png">
+					World Class Faculty
+				</h1>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="speaker">
+							<h4>Big Data Consultant &amp; Trainer,</h4>
+							<h4>California</h4>
+							<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Asset%2013.png">
+						</div>
+						<div class="speaker">
+							<h4>Big Data Trainer,</h4>
+							<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Asset%2016.png">
+						</div>
+						<div class="speaker">
+							<h4>Ex - VP &amp; Head,</h4>
+							<h4>Big Data Analytics</h4>
+							<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Asset%2019.png">
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="speaker">
+							<h4>Head of Analytics</h4>
+							<h4>Kabbage Inc</h4>
+							<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Asset%2014.png">
+						</div>
+						<div class="speaker">
+							<h4>Principal Data Scientist</h4>
+							<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Asset%2017.png">
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="speaker">
+							<h4>IoT &amp; Smart City expert,</h4>
+							<h4>Data Scientist</h4>
+							<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Asset%2015.png"/>
+						</div>
+						<div class="speaker">
+							<h4>Head of Google Projects</h4>
+							<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Asset%2018.png">
+						</div>
+						<div class="speaker">
+							<h4>Analytics Expert,</h4>
+							<h4>Life Science Domain</h4>
+							<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Copy%20(1)%20of%20Asset%2020.png">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <div style="font-size:20px;">
+				<div>
+					<div>
+						<p>Big Data Consultant &amp; Trainer,</p>
+						<p>California</p>
+						<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Asset%2013.png">
+					</div>
+					<div>
+						<p>Head of Analytics</p>
+						<p>Kabbage Inc</p>
+						<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Asset%2014.png">
+					</div>
+					<div>
+						<p>IoT &amp; Smart City expert,</p>
+						<p>Data Scientist</p>
+						<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Asset%2015.png"/>
+					</div>
+				</div>
+				<div style="float:left;">
+					<p>Big Data Trainer,</p>
+					<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Asset%2016.png">
+				</div>
+				<div style="float:center;">
+					<p>Principal Data Scientist</p>
+					<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Asset%2017.png">
+				</div>
+				<div style="float:right;">
+					<p>Head of Google Projects</p>
+					<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Asset%2018.png">
+				</div>
+				<div style="float:left;">
+					<p>Ex - VP &amp; Head,</p>
+					<p>Big Data Analytics</p>
+					<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Asset%2019.png">
+				</div>
+				<div style="float:right;">
+					<p>Analytics Expert,</p>
+					<p>Life Science Domain</p>
+					<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Copy%20(1)%20of%20Asset%2020.png">
+				</div>
+			</div> -->
+		</section>
+		<section id="learning_path"style="min-height:500px;padding:50px;">
+			<div style="margin:20px;">
+				<div>
+					<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Asset%2022.png" alt="database">
+				</div>
+				<div class="bigdata" style="background-color:
+					#DCDCDC;padding:70px;margin:10px 0px;">
+					<div class="row">
+						<div class="col-sm-5">
+							<h3 style="color:black;">BIG DATA <span style="color:gray;">LEARNING PATH</span></h3>
+						</div>
+						<div class="col-sm-1"></div>
+						<div class="col-sm-3"></div>
+						<div class="col-sm-3">
+							<p style="font-weight:bold;">25 weeks</p>
+							<p style="background-color:#FF6600;width:120px;height:100px;	padding:7px 15px;text-align:center;color:white;">Big Data 
+Integration &amp;
+Processing
+</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-3"></div>
+						<div class="col-sm-3"></div>
+						<div class="col-sm-3"></div>
+						<div class="col-sm-3">
+							<p style="background-color:#FF6600;width:120px;height:100px;	padding:7px 15px;text-align:center;color:white;">Machine Learning with Spark
+</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-3"></div>
+						<div class="col-sm-3"></div>
+						<div class="col-sm-3">
+							<p style="font-weight:bold;">14 weeks</p>
+							<p style="background-color:#FF6600;width:120px;	height:100px;padding:7px 15px;text-align:center;color:white;">Spark
+</p>
+						</div>
+						<div class="col-sm-3">
+							<p></p>
+							<p style="background-color:#FF6600;width:120px;height:100px;	padding:7px 15px;text-align:center;color:white;">Spark
+</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-3"></div>
+						<div class="col-sm-3">
+							<p style="font-weight:bold;">9 weeks</p>
+							<p style="background-color:#FF6600;width:120px;height:100px;	padding:7px 15px;text-align:center;color:white;">MongoDB, HBase
+Sqoop &amp; Flume
+</p>
+						</div>
+						<div class="col-sm-3">
+							<p style="background-color:#FF6600;width:120px;height:100px;	padding:7px 15px;text-align:center;color:white;">MongoDB, HBase
+Sqoop &amp; Flume
+</p>
+						</div>
+						<div class="col-sm-3">
+							<p style="background-color:#FF6600;width:120px;height:100px;	padding:7px 15px;text-align:center;color:white;">MongoDB, HBase
+Sqoop &amp; Flume
+</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-3">
+							<p style="font-weight:bold;">6 weeks</p>
+							<p style="background-color:#FFFF00;width:120px;height:100px;	padding:7px 15px;text-align:center;color:white;">Hadoop
+</p>
+						</div>
+						<div class="col-sm-3">
+							<p style="background-color:#FFFF00;width:120px;height:100px;	padding:7px 15px;text-align:center;color:white;">Hadoop
+</p>
+						</div>
+						<div class="col-sm-3">
+							<p style="background-color:#FFFF00;width:120px;height:100px;	padding:7px 15px;text-align:center;color:white;">Hadoop
+</p>
+						</div>
+						<div class="col-sm-3">
+							<p style="background-color:#FFFF00;width:120px;	height:100px;padding:30px 15px;text-align:center;color:white;">Hadoop
+</p>
+						</div>
+					</div>
+					<div class="row" style="border:0.3px solid black;">
+					</div>
+					<div class="row"style="color:black;font-weight: bold;padding:10px;">
+						
+							<div class="col-sm-3">
+								<p >FOUNDATION</p>
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/yellow-star.png">
+							</div>
+							<div class="col-sm-3">
+								<p>SPECIALIZATION</p>
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/yellow-star.png">
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/green-star.png">
+							</div>
+							<div class="col-sm-3">
+								<p>SUPER SPECIALIZATION</p>
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/yellow-star.png">
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/green-star.png">
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/blue-star.png">
+							</div>
+							<div class="col-sm-3">
+								<p>6 MONTH CERTIFICATE PROGRAMME</p>
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/yellow-star.png">
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/green-star.png">
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/blue-star.png">
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/oramge-star.png">
+							</div>					
+					</div>
+				</div>
+			</div>
+			<div style="margin:20px;">
+				<div>
+					<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Asset%2023.png" alt="laptop">
+				</div>
+				<div class="bigdata" style="background-color:
+					#DCDCDC;padding:70px;margin:10px 0px;">
+					<div class="row">
+						<div class="col-sm-5">
+							<h3 style="color:black;">DATA SCIENCE <span style="color:gray;">LEARNING PATH</span></h3>
+						</div>
+						<div class="col-sm-1"></div>
+						<div class="col-sm-3"></div>
+						<div class="col-sm-3">
+							<p style="font-weight:bold;">25 weeks</p>
+							<p style="background-color:#FF6600;width:120px;height:100px;	padding:7px 15px;text-align:center;color:white;">Data Science Learning path
+</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-3"></div>
+						<div class="col-sm-3"></div>
+						<div class="col-sm-3"></div>
+						<div class="col-sm-3">
+							<p style="background-color:#FF6600;width:120px;height:100px;	padding:7px 15px;text-align:center;color:white;">Advanced Machine Learning
+</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-3"></div>
+						<div class="col-sm-3"></div>
+						<div class="col-sm-3">
+							<p style="font-weight:bold;">14 weeks</p>
+							<p style="background-color:#FF6600;width:120px;	height:100px;padding:7px 15px;text-align:center;color:white;">Machine Learning
+</p>
+						</div>
+						<div class="col-sm-3">
+							<p></p>
+							<p style="background-color:#FF6600;width:120px;height:100px;	padding:7px 15px;text-align:center;color:white;">Machine Learning
+</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-3"></div>
+						<div class="col-sm-3">
+							<p style="font-weight:bold;">9 weeks</p>
+							<p style="background-color:#FF6600;width:120px;height:100px;	padding:7px 15px;text-align:center;color:white;">Tableau
+</p>
+						</div>
+						<div class="col-sm-3">
+							<p style="background-color:#FF6600;width:120px;height:100px;	padding:7px 15px;text-align:center;color:white;">Tableau
+</p>
+						</div>
+						<div class="col-sm-3">
+							<p style="background-color:#FF6600;width:120px;height:100px;	padding:7px 15px;text-align:center;color:white;">Tableau
+</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-3">
+							<p style="font-weight:bold;">6 weeks</p>
+							<p style="background-color:#FFFF00;width:120px;height:100px;	padding:7px 15px;text-align:center;color:white;">Data analytics 
+with Python
+</p>
+						</div>
+						<div class="col-sm-3">
+							<p style="background-color:#FFFF00;width:120px;height:100px;	padding:7px 15px;text-align:center;color:white;">Data analytics 
+with Python
+</p>
+						</div>
+						<div class="col-sm-3">
+							<p style="background-color:#FFFF00;width:120px;height:100px;	padding:7px 15px;text-align:center;color:white;">Data analytics 
+with Python
+</p>
+						</div>
+						<div class="col-sm-3">
+							<p style="background-color:#FFFF00;width:120px;	height:100px;padding:30px 15px;text-align:center;color:white;">Data analytics 
+with Python
+</p>
+						</div>
+					</div>
+					<div class="row" style="border:0.5px solid black;">
+					</div>
+					<div class="row"style="color:black;font-weight: bold;padding:10px;">
+						
+							<div class="col-sm-3">
+								<p >FOUNDATION</p>
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/yellow-star.png">
+							</div>
+							<div class="col-sm-3">
+								<p>SPECIALIZATION</p>
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/yellow-star.png">
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/green-star.png">
+							</div>
+							<div class="col-sm-3">
+								<p>SUPER SPECIALIZATION</p>
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/yellow-star.png">
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/green-star.png">
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/blue-star.png">
+							</div>
+							<div class="col-sm-3">
+								<p>6 MONTH CERTIFICATE PROGRAMME</p>
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/yellow-star.png">
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/green-star.png">
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/blue-star.png">
+								<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/oramge-star.png">
+							</div>					
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="student_speak"style="min-height:500px;background-color:grey;float:center;font-family:sans-serif;color:white;">
+			<div class="flex-horizontal-container">
+			<div style="width:600px; margin:0px 0px 20px">
+				<div>
+					<h1 class="roboto" style="text-align:center;font-weight:300">UpX Student Speak</h1>
+				</div>
+				<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/1404%20(1).png" style="width:50px">
+				<div>
+					<p class="roboto">UpX Academy has understood the Big Data Analytics space fairly well and are doinga brilliant job in educating young leaders and professionals who look forward to join this sector.</p>
+					<p class="roboto">- Jai Kumar - Director, BI, NTT DATA</p>
+					<hr>
+				</div>
+				<div>
+					<p class="roboto">UpX Academy has excellent faculty on-board that brings in industry perspective in their programs. The five week training they conducted has helped my team adopt the latest Big Data Analytics practices.</p>
+					<p class="roboto">- Puneet Sakhuja - BI, Analytics - Practice leader, Tech Mahindra</p>
+					<hr>
+				</div>
+				<div>
+					<p class="roboto">Initially, we were a bit apprehensive about online trainings. But the interactive approach, support and the way the trainings were organized impressed my team. The pace of the training was perfect and suitable for even beginners in this area.</p>
+					<p class="roboto">- Siddharth Bhattacharya - AVP Analytics, Barclays</p>
+				</div>
+				<img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/1404%20(1).png" align="right" style="width:50px; transform: rotate(180deg);">
+			</div>
+			</div>
+		</section>
+		<section id="about"style="min-height:500px;font-family:sans-serif;font-color:grey;">
+			<div style="padding:30px 370px 10px 370px;">
+				<h2 class="roboto" style="text-align:center;font-family:sans-serif;">About UpX Academy</h2>
+				<div style="font-family:sans-serif;text-align:justify;">
+					<hr>
+					<p class="roboto">In today’s digital age, data has the potential to transform businesses through insights and analytics. However, this power still awaits to be fully harnessed. As a world-class educational venture, we recognize this challenge and are therefore committed to empower professionals through transformational courses in Big Data and Data Science.</p>
+					<hr>
+				</div>
+			</div>
+			<div style="padding:10px 270px 30px 270px;">
+				<h1 style="text-align:center;" class="roboto">OUR COURSES</h1>
+				<div style="font-size:20px;" class="flex-horizontal-container">
+					<div class="course">
+						<p><b>BIG DATA</b></p>
+						<p>HADOOP</p>
+						<p>APACHE SPARK</p>
+						<p>MAONGO DB</p>
+						<button style="background-color:orange;">KNOW MORE</button>
+					</div>
+					<div class="course">
+						<p><b>DATA SCIENCE</b></p>
+						<p>DATA ANALYTICS</p>
+						<p>MACHINE LEARNING</p>
+						<p>TABLEAU</p>
+						<button class="roboto" style="background-color:orange;">KNOW MORE</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer style="min-height:50px;width:auto;">
+			<object align="right" class="roboto">&copy; 2017 Upx. All rights Reserved</object>
+			<address class="roboto">www.upxacademy.com</address>
+			<address class="roboto">Email: info@upxacademy.com</address>
+		</footer>
+	</body>
+</html>
